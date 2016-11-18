@@ -1,0 +1,11 @@
+# deps
+node_modules
+
+# macOS
+.DS_Store
+
+# build
+lib
+
+# logs
+*.log

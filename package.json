@@ -1,0 +1,26 @@
+{
+  "name": "remove-assets-webpack-plugin",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "yarn run clean && yarn run build",
+    "build": "./node_modules/.bin/gulp lib:build",
+    "watch": "./node_modules/.bin/gulp",
+    "clean": "./node_modules/.bin/gulp lib:clean"
+  },
+  "repository": {
+    "url": "git@github.com:pierresaux/remove-assets-webpack-plugin.git",
+    "type": "git"
+  },
+  "author": "Kei-sau CHING <keisau.ching@pierresaux.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean": "^0.3.2",
+    "gulp-util": "^3.0.7"
+  }
+}

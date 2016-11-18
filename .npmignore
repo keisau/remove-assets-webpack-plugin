@@ -1,0 +1,8 @@
+src
+.babelrc
+.npmignore
+.gitignore
+.nvmrc
+gulpfile.js
+
+*.log
